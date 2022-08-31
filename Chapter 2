@@ -1,0 +1,39 @@
+## 2.3 exercise 
+
+starting_day = input("What is the starting day of your Holiday?")
+length_of_stay = input("What is the length of your stay")
+
+starting_day_int = int(starting_day)
+
+length_of_stay_int = int(length_of_stay)
+
+day_of_week_get_back = (starting_day_int + length_of_stay_int) % 7
+
+print("you will get back on day", day_of_week_get_back)
+
+
+##2.5 exercise 
+
+a = "all"
+w = "work"
+aa = "and"
+n = "no"
+p = "play"
+m = "makes"
+j = "jack"
+aaa = "a"
+d = "dull"
+b = "boy"
+
+print(a,w,aa,n,p,m,j,aaa,d,b)
+
+
+##2.8 exercise 
+
+radius_string = input("what is the radius")
+
+radius_int = int(radius_string)
+
+area_of_circle = 3.14 * radius_int**2 
+
+print("the area of your circle is", area_of_circle)
