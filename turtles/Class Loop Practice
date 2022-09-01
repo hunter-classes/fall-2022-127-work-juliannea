@@ -1,0 +1,18 @@
+for i in range(4): ##range gives us a range of numbers starting from 0 
+    print(i)
+    
+    
+print ("----")
+
+for number in range (5,10):
+    print(number)
+    
+print("----")
+    
+for name in ['able', 'baker','charlie']:
+    
+    print(name)
+    
+    print(name.upper()) ##prints name in upper case ##python what indent is lined up its together in the loop
+
+print("The loop is done")
