@@ -18,15 +18,18 @@ print(bondify("james bond"))
 
 def piglatin(word):
     
-    first_l = word[0]   #Find first letter of the word
-    vowel = 'a' or 'e' or 'i' or 'o' or 'u' ##Defines what first letters are vowel in the word 
+    first_l = word[0].lower()   #Find first letter of the word
+    vowel = 'a' or 'e' or 'i' or 'o' or 'u' ##Defines what first letters are vowel in the word
+    r_word = word[1:2].upper()
+    f_word = word[2:]
     
     if first_l == vowel: ##if the first letter is a vowel 
-        p_word = word + 'yay'  ## add yay to the end of the word 
+        p_word = r_word + f_word +'yay'## add yay to the end of the word
+        
         return p_word ##returns the word 
     
     else:
-        p_word = word[1:] + first_l + 'ay' #Has the word from the letter after the first letter + first letter at end + ay at the ends 
+        p_word = r_word + f_word + 'ay' #Has the word from the letter after the first letter + first letter at end + ay at the ens 
         return p_word
     
 pword = input('Type in word to turn into piglatin') #ask for word 
