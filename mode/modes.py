@@ -26,3 +26,24 @@ def freq(l,v):
 list_n = [1,1,1,1,1,3,3,3,3,4,2,2,2,2]
 
 print(freq(list_n,1))
+
+#fastmode 
+def fastMode(dataset):
+    n = 100
+    lists = [0] * n
+
+    for item in dataset:
+        lists[item] += 1
+
+    values = lists[0]
+    for num in lists:
+        if num > values:
+            values = lists.index(num)
+       
+
+    return values
+
+data = [1,1,1,2,2,2,2,3,3,4,4,4,4,4]
+
+print(fastMode(data))
+    
