@@ -1,0 +1,20 @@
+import turtle
+
+wn = turtle.Screen()
+
+#square set up
+square = turtle.Turtle()
+square.color("red")
+
+##Turtle 2 square
+square.up() ##moves pen up
+
+square.goto(100,100) ##go to point
+
+square.down()
+
+for i in [0, 1, 2, 3]:      # sets to repeat four times
+    square.forward(50)
+    square.left(90)
+
+wn.exitonclick()

@@ -1,0 +1,57 @@
+import turtle
+
+wn = turtle.Screen()
+
+##crush setup
+crush = turtle.Turtle()
+
+crush.color("blue")
+
+##squirt set up
+squirt = turtle.Turtle()
+
+#square set up
+square = turtle.Turtle()
+square.color("red")
+
+
+##Turtle 2 square
+square.up() ##moves pen up
+
+square.goto(100,100) ##go to point
+square.down()
+square.forward(50)
+square.left(90)
+square.forward(50)
+square.left(90)
+square.forward(50)
+square.left(90)
+square.forward(50)
+
+##Turtle 3 Triangle 
+
+squirt.forward(80)
+
+squirt.left(120)
+
+squirt.forward(80)
+
+squirt.left(120)
+
+squirt.forward(80)
+
+squirt.left(120)
+
+squirt.right(180)
+
+squirt.forward(80)
+
+
+
+
+wn.exitonclick()  ##exits the program when click 
+
+wn.mainloop() ##just have to put for turtle
+
+
+
