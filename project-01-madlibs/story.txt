@@ -1,0 +1,5 @@
+<hero> <iverb> to the <plnoun> and <tverb> with the <pnoun>. <hero> was secretly a <pnoun> and was very <adjective>. 
+After going to the <plnoun> <hero> <iverb> with the <pnoun> to go to the <pnoun>. 
+The <pnoun> <hero> <iverb> with was very <adjective>. 
+The <plnoun> that <hero> visited later was very beautiful and <hero> met a <pnoun>.
+<adjective> was the <pnoun> that <hero> <tverb> with in the <plnoun>.
