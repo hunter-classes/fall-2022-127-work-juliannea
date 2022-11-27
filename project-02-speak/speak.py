@@ -126,13 +126,6 @@ def story(s,t,ct,ft):
     option = input('What translation do you want: pirate, chef, or fudd?') #asks for user input 
     p_s = s.split() #split into list
 
-    #if user mistypes
-
-    if option != 'pirate' or 'chef' or 'fudd':
-        print('Not an option')
-
-    option = input('What translation do you want: pirate, chef, or fudd?')
-
     #pirate translation 
     if option == 'pirate':
         translations = t #set equal to chef dictionary
