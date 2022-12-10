@@ -4,7 +4,7 @@
 # In[ ]:
 
 
-#Used Jupyter notebooks on Anaconda
+#Used Jupyter notebooks on Anaconda so please try to run Jupyter notebook file in folder first because am not sure if Python file version will run the same
 #used PANDAS, Seaborn , NUMPY, and MatPlotlib 
 #Extras dones are Data visualization Bar Plot and Scatter Plot
 #Extras done is Used multiple aspects of a single data source in your analysis
