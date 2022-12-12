@@ -3,7 +3,8 @@
 
 # In[3]:
 
-
+#Used Jupyter notebooks on Anaconda so please try to run Jupyter notebook file in folder first because am not sure if Python file version will run the same
+#Juptyer Notebook file names data.ipynb in data folder 
 #Used Jupyter notebooks on Anaconda
 #used PANDAS, Seaborn , NUMPY, and MatPlotlib 
 #Extras dones are Data visualization Bar Plot and Scatter Plot
